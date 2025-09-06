@@ -36,8 +36,10 @@ The example below demonstrates how to predict the `[MASK]` token with [`Pipeline
 <hfoption id="Pipeline">
 
 ```py
-# uncomment to install rjieba which is needed for the tokenizer
-# !pip install rjieba
+# To use RoFormerTokenizer, install `rjieba`:
+```bash
+pip install rjieba
+
 import torch
 from transformers import pipeline
 
